@@ -12,7 +12,7 @@ The lab consists of three VMs:
 |---------|----|----------|--------------|-------|-----|------|
 | LAB-SIEM-WAZUH-01 | Ubuntu 24.04 | wazuh-lab-01 | 192.168.56.10 | 2 | 4GB | 40GB |
 | WIN11-LAB-01 | Windows 11 Pro | WIN11-LAB-01 | 192.168.56.20 | 2 | 4GB | 60GB |
-| LAB-KALI-01 | Kali Linux 2025.2 | kali-lab-01 | 192.168.56.30 | 2 | 4GB | N/A |
+| LAB-KALI-01 | Kali Linux 2025.2 | kali-lab-01 | 192.168.56.30 | 1 | 2GB | N/A |
 
 ## Key Steps
 ### Ubuntu SIEM
