@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.5">
+  <diagram name="Page-1" id="oHKXyp8MdG5wiX0YuQXK">
+    <mxGraphModel dx="1248" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#bdbdba, #ededed);strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102.13999999999999" y="90" width="600" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Blue Team SOC Homelab – Month 1 Architecture Diagram&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.129999999999995" y="50" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-15" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=light-dark(#4a90e2, #bec8d4);strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="129.62" y="152" width="114.23" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-7" value="NAT&lt;div&gt;(Internet&lt;/div&gt;&lt;div&gt;Access)&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435.6" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-3" value="&lt;span&gt;&lt;font&gt;Host PC&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#bdbdbd, #ededed);strokeColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="305.95000000000005" y="511" width="56.03" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="248.67" y="401" width="170.59" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-4" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;VirtualBox Hypervisor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#bdbdbd, #ededed);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="273.96999999999997" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-32" value="" style="group;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="136.73" y="190.32999999999998" width="530.81" height="142.67000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-18" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Ubuntu SIEM&lt;/font&gt;&lt;/b&gt; (Wazuh Manager)&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;IP: 192.168.56.10&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=1;" vertex="1" parent="GTQs3MqkzRdbutsmGDQc-32">
+          <mxGeometry y="112.67000000000002" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GTQs3MqkzRdbutsmGDQc-32" source="GTQs3MqkzRdbutsmGDQc-20" target="GTQs3MqkzRdbutsmGDQc-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153.27" y="44.670000000000016" />
+              <mxPoint x="153.27" y="127.67000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Event Logs&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(e.g., 4625)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#bdbdbd, #ededed);" vertex="1" connectable="0" parent="GTQs3MqkzRdbutsmGDQc-25">
+          <mxGeometry x="0.0601" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-23" value="" style="group" vertex="1" connectable="0" parent="GTQs3MqkzRdbutsmGDQc-32">
+          <mxGeometry x="163.27" width="156.93" height="121.34" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-19" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=light-dark(#4a90e2, #ededed);align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.desktop;" vertex="1" parent="GTQs3MqkzRdbutsmGDQc-23">
+          <mxGeometry width="156.93" height="121.34" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-20" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Windows 11 Endpoint&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;(Wazuh Agent)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;IP: 192.168.56.20&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="GTQs3MqkzRdbutsmGDQc-23">
+          <mxGeometry x="8.46" y="19.34" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-24" value="" style="group;labelBackgroundColor=none;" vertex="1" connectable="0" parent="GTQs3MqkzRdbutsmGDQc-32">
+          <mxGeometry x="389.27" y="4.340000000000032" width="141.53999999999996" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-21" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=light-dark(#d0021b, #6b81ac);gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="GTQs3MqkzRdbutsmGDQc-24">
+          <mxGeometry width="141.54" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-22" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Kali Linux&lt;/font&gt;&lt;/b&gt; (Attacker VM)&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;IP: 192.168.56.30&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GTQs3MqkzRdbutsmGDQc-24">
+          <mxGeometry x="20.769999999999982" y="25" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GTQs3MqkzRdbutsmGDQc-32" source="GTQs3MqkzRdbutsmGDQc-22" target="GTQs3MqkzRdbutsmGDQc-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-30" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Simulated&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Attack&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Traffic&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#bdbdbd, #ededed);" vertex="1" connectable="0" parent="GTQs3MqkzRdbutsmGDQc-29">
+          <mxGeometry x="-0.0187" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTQs3MqkzRdbutsmGDQc-4" target="GTQs3MqkzRdbutsmGDQc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQs3MqkzRdbutsmGDQc-33" value="&lt;b&gt;Host-Only Network (192.168.56.0/24)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="288.21" y="107" width="227.86" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
