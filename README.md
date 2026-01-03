@@ -140,6 +140,8 @@ configs/
 README.md
   → Repository overview
 
+---
+
 🛠️ Technologies Used
 • SIEM: Splunk Enterprise 10.0.2
 • Forwarders: Splunk Universal Forwarder 10.0.2
