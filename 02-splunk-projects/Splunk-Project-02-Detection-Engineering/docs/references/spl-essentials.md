@@ -13,10 +13,10 @@ This guide condenses the SPL essentials every SOC analyst must know.
 
 These **7 commands** cover 80%+ of SOC searches.
 
-### 1️⃣ `search` (Implicit but critical)
+```### 1️⃣ `search` (Implicit but critical)
 **Purpose:** Filters events  
 **Example:**  
-```spl
+spl
 index=windows_logs EventCode=4625
 
 SOC Usage:
@@ -96,8 +96,9 @@ Example:
 
 • Groups events in 5-minute windows
 • Enables “X events within Y minutes” detections
-SOC Usage: Detection logic for brute force, anomaly detection, and alert thresholds
+SOC Usage: Detection logic for brute force, anomaly detection, and alert thresholds```
 
+---
 
 Phase B — CORE SOC DETECTION PATTERNS
 Memorize patterns, not queries.
