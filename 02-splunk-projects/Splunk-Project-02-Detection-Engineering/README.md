@@ -90,11 +90,11 @@ This project showcases the following real-world SOC analyst skills:
 
 ---
 
-### Evidence Mapping (Skill-to-Proof Validation)
+- ### Evidence Mapping — Skill-to-Proof Validation
 All SOC analyst skills demonstrated in this project are mapped to **direct, verifiable evidence** (detections, incidents, and documentation):
 
-📎 **SOC Skill Evidence Mapping:**  
-docs/evidences/SOC-Skill-Evidence-Mapping.md
+**SOC Skill Evidence Mapping:**  
+https://github.com/jellyconcepcion/blue-team-homelab/blob/main/02-splunk-projects/Splunk-Project-02-Detection-Engineering/docs/evidences/SOC-Skill-Evidence-Mapping.md
 
 ---
 
