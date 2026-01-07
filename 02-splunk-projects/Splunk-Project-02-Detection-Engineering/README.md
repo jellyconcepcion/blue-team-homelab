@@ -87,3 +87,21 @@ This project showcases the following real-world SOC analyst skills:
 - Some dashboard screenshots (Dashboard-Overview.png) only show three panels due to browser zoom/viewport limitations. Individual panels are captured separately.  
 - Lab environment uses NAT; source IPs may appear identical across local VMs.  
 - All activity is simulated and does not involve production data.
+
+---
+
+### Evidence Mapping (Skill-to-Proof Validation)
+All SOC analyst skills demonstrated in this project are mapped to **direct, verifiable evidence** (detections, incidents, and documentation):
+
+📎 **SOC Skill Evidence Mapping:**  
+docs/evidences/SOC-Skill-Evidence-Mapping.md
+
+---
+
+## SOC Analyst Skill Tags
+
+SIEM • Splunk • SPL • Log Analysis • Windows Event Logs • Linux Logs • SSH  
+Detection Engineering • Incident Response • Alert Triage • MITRE ATT&CK  
+Brute Force Detection • Privilege Escalation • Sysmon • EDR • Endpoint Security  
+Cross-Platform Correlation • SOC Documentation • Runbooks • Playbooks  
+Threat Detection • Security Monitoring • Blue Team Operations
